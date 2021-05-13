@@ -1,0 +1,150 @@
+body{
+	min-width: 320px;
+}
+
+h1{
+	font-family: arial;
+	color: #FFFFFF;
+}
+
+.nav-icon{
+	color: #FFFFFF;
+}
+
+.logo-link{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.logo-link:hover{
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.header-nav{
+	background-color: #00BBD3;
+	padding: 20px 0;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #FFFFFF;
+	font-family: arial;
+}
+
+.header-content{
+	background-image: url(../images/Medovyj-mesyats-dlinoyu-v-zhizn.jpg);
+	background-size: cover;
+	padding: 250px 0;
+}
+
+.border-text{
+	background: rgb(255,158,0);
+	background: linear-gradient(90deg, rgba(255,158,0,0.4066001400560224) 0%, rgba(255,161,41,0.4514180672268907) 100%);
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+.header-content p{
+	color: #FFFFFF;
+	font-family: arial;
+}
+
+.header-content h1{
+	margin-top: 50px;
+}
+
+.content-services{
+	padding: 50px 0;
+	background-color: #ECECEC;
+}
+
+.content-services h1{
+	color: #000000;
+}
+
+.content-services .card{
+	padding: 20px 0;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+}
+
+.content-services i{
+	font-size: 60px;
+}
+
+.content-reviews{
+	padding: 50px 0;
+}
+
+.content-reviews h1{
+	color: #000000;
+}
+
+.content-reviews .reviews{
+	background-color: #EEEEEE;
+	padding: 25px;
+}
+
+.footer{
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 50px 0;
+}
+
+footer{
+	background-color: #1F1F1F;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+
+.article-content{
+	padding: 50px 0;
+}
+
+.article-content h1{
+	color: #000000;
+}
+
+.docs-content{
+	padding: 50px 0;
+}
+
+.docs-content h1{
+	color: #000000;
+}
+
+.contacts-content{
+	padding: 50px 0;
+}
+
+.contacts-content h1{
+	color: #000000;
+}
+
+.contacts-content .btn-submit{
+	color: #FFFFFF;
+	background-color: #00BBD3;
+	font-family: arial;
+}
+
+
+@media screen and (max-width: 992px) {
+	.header-content h1{
+		margin-top: 30px;
+	}
+	.border-text{
+		background: none;
+	}
+}
+
+@media screen and (max-width: 496px) {
+	.header-content{
+		padding: 100px 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.content-services .card{
+		box-shadow: none;
+	}
+}
